@@ -1,0 +1,22 @@
+{
+  "name": "wolxxx/environmentlistener",
+  "description": "environment listener for PHPUnit",
+  "type": "library",
+  "minimum-stability": "dev",
+  "version": "1.0",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "wolxXx",
+      "email": "devops@wolxXx.de"
+    }
+  ],
+  "autoload": {
+    "psr-0": {
+      "wolxxx\\": "src/"
+    }
+  },
+  "require": {
+    "phpunit/phpunit": "^5.0.0"
+  }
+}
